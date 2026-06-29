@@ -1,4 +1,4 @@
-# Hey, I'm [Your Name] ðŸ‘‹
+# Hey, I'm Colin Miley ðŸ‘‹
 
 > Founder building in public. AI enthusiast. OpenClaw power-user. Shipping things that matter.
 
@@ -32,8 +32,8 @@
 I share the journey â€” the wins, the failures, and the "how the hell do I do this" moments:
 
 - ðŸ“ Writing about AI tooling, founder ops, and ecommerce
-- ðŸ¦ Building in public on [Twitter/X](https://twitter.com/[your-handle])
-- ðŸ’¼ Professional updates on [LinkedIn](https://linkedin.com/in/[your-handle])
+- ðŸ¦ Building in public on [Twitter/X](https://twitter.com/ColinOnToast)
+- ðŸ’¼ Professional updates on [LinkedIn](https://www.linkedin.com/in/colin-miley/)
 
 ---
 
@@ -47,5 +47,5 @@ I share the journey â€” the wins, the failures, and the "how the hell do I 
 
 *"The best way to learn is to build in public."*
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/[your-handle]?style=social)](https://twitter.com/[your-handle])
+[![Twitter Follow](https://img.shields.io/twitter/follow/ColinOnToast?style=social)](https://twitter.com/ColinOnToast)
 [![GitHub followers](https://img.shields.io/github/followers/colin1miley-stack?style=social)](https://github.com/colin1miley-stack)
