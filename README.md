@@ -1,51 +1,52 @@
-# Hey, I'm Colin Miley 👋
+# 👋 Hi, I'm Colin Miley
 
-> Founder building in public. AI enthusiast. OpenClaw power-user. Shipping things that matter.
+> I help sales teams build AI systems that eliminate admin waste and put selling time back into their day.
+
+## 🎯 What I Do
+
+**AI Revenue Systems** — AI-orchestrated systems for solopreneurs and sales teams
+
+- **AI Sales Process Audit** — £1,850 | 15 min diagnosis + 90-day roadmap
+- **Done-with-you implementation** — From audit to live system
+- **Build in public** — Documenting every system, every win, every lesson
+
+## 🧠 Background
+
+- 15 years in enterprise tech sales (managing €10M+ portfolios)
+- Nov 2024: Took redundancy to build something that serves my family
+- Sept 2025: Started learning AI from scratch
+- Now: Building AI systems that make money while I sleep
+
+## 🛠️ Tech Stack
+
+**What I build with:**
+- `OpenClaw` — AI orchestration & agent swarms
+- `Kimi` — Content, research, system design
+- `ElevenLabs` — Voice clone for content
+- `HeyGen` — AI avatar video
+- `Framer Motion` — Cinematic web animations
+- `Next.js` — Production-grade sites
+
+**What I help clients implement:**
+- AI intake systems (24/7 lead capture)
+- Automated nurture sequences
+- CRM integrations & workflow automation
+- Content engines that run on 75 min/week
+
+## 🔗 Find Me
+
+- **LinkedIn:** [Colin Miley](https://linkedin.com/in/colinmiley) — Daily posts on AI × Sales
+- **Newsletter:** *"Skills, Not Tools"* — Weekly deep dives
+- **Website:** [colinmiley.com](https://colinmiley.com) — Book an audit
+
+## 📈 Currently Building in Public
+
+**AI Revenue Systems** — From first client to first £10K month.
+
+Documenting the entire journey: the systems, the tools, the wins, the failures.
+
+→ [Read the latest on LinkedIn](https://linkedin.com/in/colinmiley)
 
 ---
 
-## What I'm Building
-
-🤖 **OpenClaw Skills Collection** — 100+ AI agent skills covering SEO, content, analytics, paid ads, email marketing, design, and more. Built to automate the unglamorous work of running a startup.  
-→ [Check out the skills →](https://github.com/colin1miley-stack/openclaw-skills)
-
-🧬 **A personalised wellness startup** — Currently in concierge Phase 0. Targeting launch late summer 2026. (Details post-launch.)
-
----
-
-## My Stack
-
-`Python` `JavaScript` `TypeScript` `OpenClaw` `Shopify` `Airtable` `Klaviyo` `Typeform` `AI Agents`
-
----
-
-## Featured Projects
-
-| Project | What It Does |
-|---------|-------------|
-| [openclaw-skills](https://github.com/colin1miley-stack/openclaw-skills) | 100+ AI agent skills for founders — SEO, content, ads, email, design |
-
----
-
-## Building in Public
-
-I share the journey — the wins, the failures, and the "how the hell do I do this" moments:
-
-- 📝 Writing about AI tooling, founder ops, and ecommerce
-- 🐦 Building in public on [Twitter/X](https://twitter.com/ColinOnToast)
-- 💼 Professional updates on [LinkedIn](https://www.linkedin.com/in/colin-miley/)
-
----
-
-## Let's Connect
-
-- 🤝 **Collaborate** — Got a skill idea? Want to co-build something? Open an issue or DM me.
-- ⭐ **Star a repo** — It genuinely helps with visibility (and my ego, let's be honest).
-- 💬 **Say hi** — Founder to founder, I'm always up for swapping notes.
-
----
-
-*"The best way to learn is to build in public."*
-
-[![Twitter Follow](https://img.shields.io/twitter/follow/ColinOnToast?style=social)](https://twitter.com/ColinOnToast)
-[![GitHub followers](https://img.shields.io/github/followers/colin1miley-stack?style=social)](https://github.com/colin1miley-stack)
+*"I spent 15 years watching sales teams drown in admin. Now I build the lifeboats."*
