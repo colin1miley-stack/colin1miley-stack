@@ -1,26 +1,26 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/colin1miley-stack/colin1miley-stack/main/assets/header.png" alt="Colin Miley — Forward Deployed Engineer for B2B Sales Teams" width="100%">
+  <img src="https://raw.githubusercontent.com/colin1miley-stack/colin1miley-stack/main/assets/header.png" alt="Colin Miley — Revenue Ritual" width="100%">
 </p>
 
 <h1 align="center">Colin Miley</h1>
-<p align="center"><strong>Forward Deployed Engineer for B2B Sales Teams</strong></p>
-<p align="center">I embed inside sales teams, audit their AI readiness, and ship working systems — not decks.</p>
+<p align="center"><strong>Revenue Ritual — Revenue Leak Audits for B2B Sales Teams</strong></p>
+<p align="center">I help sales teams stop leaking revenue. 10 years at Vodafone. Now building AI-powered sales systems.</p>
 
 ---
 
 ## What I Do
 
-**AI Revenue Systems** — AI-orchestrated systems for solopreneurs and sales teams.
+**Revenue Ritual** — Revenue leak audits and LinkedIn lead generation for B2B sales teams.
 
-I'm not a consultant who leaves you a roadmap. I'm a Forward Deployed Engineer who stays until your system is live.
+I spent 10 years at Vodafone managing a €10M portfolio. Now I diagnose where sales teams lose time and money — then fix it with practical, no-code automations.
 
 | Service | What You Get | Investment |
 |---------|-------------|------------|
-| **AI Sales Process Audit** | 15-min diagnosis + 90-day roadmap | €2,150 |
-| **Done-With-You Implementation** | From audit to live system | €3,000–€8,000 |
-| **Ongoing FDE Retainer** | Embedded system optimization | €1,500/mo |
+| **Revenue Sprint** | 2-week focused fix. One leak, working system. | €695 |
+| **Revenue Leak Audit** | Full diagnosis. Process map + automations + 90-day roadmap. | €2,150 |
+| **LinkedIn Meeting Machine** | Ongoing content + outreach. Meetings, not vanity metrics. | €1,200/mo |
 
-→ [Book an audit](https://calendly.com/colin1miley) (15 minutes, no pitch)
+→ [Book a call](https://calendly.com/colin-colinmiley/30min) (30 minutes, no pitch)
 
 ---
 
@@ -36,18 +36,18 @@ I'm not a consultant who leaves you a roadmap. I'm a Forward Deployed Engineer w
 
 ## Background
 
-- **15 years** in enterprise B2B sales (€10M+ portfolios, MEDDIC-trained)
+- **10 years** at Vodafone (Account Director, €10M+ portfolio, Apple/Salesforce/Mastercard)
+- **15 years total** in enterprise B2B sales (MEDDIC-trained)
 - **Nov 2024:** Took redundancy to build systems that serve my family
-- **Sept 2025:** Started learning AI from scratch
-- **Now:** Forward Deployed Engineer — embedding in teams, shipping production systems
+- **Now:** Revenue Ritual — helping sales teams close more deals with AI
 
-> "I spent 15 years watching sales teams drown in admin. Now I build the lifeboats."
+> "I spent 10 years watching sales teams drown in admin. Now I build the lifeboats."
 
 ---
 
 ## Building in Public
 
-**AI Revenue Systems** — From first client to first €10K month.
+**Revenue Ritual** — From first client to first €10K month.
 
 Documenting the entire journey: the systems, the tools, the wins, the failures.
 
@@ -95,7 +95,7 @@ All my operational frameworks are here:
 - 📍 Dublin, Ireland
 - 👨‍👩‍👧‍👦 Dad first. Engineer second.
 - 🎯 Goal: Financial freedom for family through AI-leveraged income
-- 🏗️ Building: AI Revenue Systems + open-source skill library
+- 🏗️ Building: Revenue Ritual + open-source skill library
 - 🌊 Dream: Lake house, majority time with family, location-independent
 
 ---
@@ -103,5 +103,5 @@ All my operational frameworks are here:
 <p align="center">
   <a href="https://colinmiley.com">Website</a> •
   <a href="https://linkedin.com/in/colin-miley">LinkedIn</a> •
-  <a href="https://calendly.com/colin1miley">Book an Audit</a>
+  <a href="https://calendly.com/colin-colinmiley/30min">Book an Audit</a>
 </p>
