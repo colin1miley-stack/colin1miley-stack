@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/colin1miley-stack/colin1miley-stack/main/assets/header.png" alt="Colin Miley — Forward Deployed Engineer for B2B Sales Teams" width="100%">
+  <img src="https://raw.githubusercontent.com/colin1miley-stack/colin1miley-stack/main/assets/header.png" alt="Colin Miley — Revenue Ritual" width="100%">
 </p>
 
 <h1 align="center">Colin Miley</h1>
