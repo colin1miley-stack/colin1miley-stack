@@ -53,7 +53,7 @@ All deliverables signed via [OpenSign](https://opensignlabs.com) for acceptance.
 
 ## Background
 
-- **15 years** in enterprise B2B sales (Vodafone Account Director, €10M+ portfolio, Apple/Salesforce/Mastercard accounts)
+- **15 years** in enterprise ICT/Saas B2B sales 
 - **MEDDIC-trained**, quota-carrying, field-sales background — not a theorist
 - **Nov 2024:** Took voluntary redundancy to build systems that serve my family
 - **Now:** Revenue Ritual — helping Irish B2B teams eliminate admin waste and close more deals with AI
