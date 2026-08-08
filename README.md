@@ -4,7 +4,7 @@
 
 <h1 align="center">Colin Miley</h1>
 <p align="center"><strong>Revenue Ritual — Forward Deployed Engineer for B2B Sales Teams</strong></p>
-<p align="center">I help Irish B2B sales teams stop leaking revenue. 15 years at Vodafone. Now building AI-powered revenue workflows.</p>
+<p align="center">I help Irish B2B sales teams stop leaking revenue. 15 years in ICT/Saas. Now building AI-powered revenue workflows.</p>
 
 ---
 
