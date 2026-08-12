@@ -1,127 +1,163 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/colin1miley-stack/colin1miley-stack/main/assets/header.png" alt="Colin Miley — Revenue Ritual" width="100%">
-</p>
+# Revenue Ritual
 
-<h1 align="center">Colin Miley</h1>
-<p align="center"><strong>Revenue Ritual — Forward Deployed Engineer for B2B Sales Teams</strong></p>
-<p align="center">I help Irish B2B sales teams stop leaking revenue. 15 years in ICT/Saas. Now building AI-powered revenue workflows.</p>
+**I help Irish B2B sales teams eliminate admin waste and close more deals.**
+
+Not with AI SDR bots. Not with "set it and forget it" automation. With 15 years of sales experience, a whiteboard, and the willingness to sit in your team's Slack for a week to figure out what's actually broken.
+
+Most "sales consultants" hand you a 40-page PDF and vanish. I embed. I map your leaks. I build workflows, playbooks, and CRM fixes your team can maintain without calling a developer. Then I train them and stick around for 30 days to make sure it sticks.
 
 ---
 
 ## What I Do
 
-**Revenue Ritual** — Revenue leak audits and AI-powered sales systems for B2B teams.
+Revenue Ritual is a B2B sales consulting service for Irish teams who are sick of losing deals to process chaos.
 
-I don't leave you a strategy deck. I embed with your team, map every leak, and ship working automations — CRM enrichment, LinkedIn outreach, lead scoring, follow-up sequences. Systems that keep running after I'm gone.
+I don't sell software. I don't rent you a bot. I find where your revenue leaks — CRM gaps, manual follow-ups falling through cracks, deals stalling in no-man's-land — and I fix them with systems built around how your team actually works.
 
-### Services
+Some of this involves n8n/Make workflows. Some of it is a well-structured Airtable base and a playbook your team will actually read. The tool is whatever gets the job done. The job is: you close more deals with less admin pain.
+
+The honest truth? Most sales teams don't need more tech. They need someone who's seen 200 pipelines to look at theirs and say "here's what's actually wrong."
+
+And here's what I won't do: I won't sell you an "AI SDR" that spams LinkedIn. I won't promise a "live pipeline" that doesn't exist. I won't configure 2-3 "automations" and call it a transformation. That's not what this is.
+
+---
+
+## Services
 
 | Service | What You Get | Investment |
 |---------|-------------|------------|
-| **Revenue Leak Audit** | Full process map, CRM audit, 2–3 automations, 90-day roadmap, digital signature acceptance | €7,500 |
-| **Revenue Sprint** | 2-week focused fix. One leak, working system. | €1,995 |
-| **LinkedIn Meeting Machine** | Ongoing AI-powered content + outreach. Meetings, not vanity metrics. | €1,995/mo |
-| **Growth Package** | Audit + build + LinkedIn setup + training. The full stack. | €8,500 |
-| **Automation Care** | Monthly optimisation, new workflows, priority support. | €500/mo |
+| **Revenue Leak Audit** | Full process mapping, CRM review, workflow analysis, written report with prioritized fixes | €7,500 |
+| **Systems Sprint** | Build + deploy 1-2 workflows (n8n/Make, CRM enrichment, follow-up playbooks), team training | €1,995 |
+| **LinkedIn Strategy** | Content strategy, outreach playbooks, profile optimization — built manually for your ICP | €1,995/mo |
+| **Growth Package** | Audit + sprint + 30 days of systems care | €8,500 |
+| **Systems Care** | Monthly check-ins, tweaks, documentation updates | €500/mo |
 
-**Founding Client Pilot:** First 3 teams get the full Revenue Leak Audit for **€2,500** (in exchange for a case study). [Learn more →](https://colinmiley.com/pricing)
-
-→ [Book a call](https://calendly.com/colin-colinmiley/book-call) (15 minutes, no pitch)
+**Pilot offer:** First 3 audit clients get the full audit for €2,500. In exchange, I ask for a case study interview (30 minutes, written up by me, approved by you before publication). You get €5,000 off. I get proof this works. Fair trade.
 
 ---
 
 ## What That Means in Practice
 
-**Before:** Your reps spend 10+ hours/week on CRM updates, manual follow-ups, and "just checking in" emails. Warm leads get one touch, then nothing. Pipeline data is stale before you see it.
+**Before:**
+- Deals sit in "proposal sent" for 3 weeks with no follow-up
+- Your CRM is 40% accurate on a good day
+- Your best rep spends 6 hours a week on data entry
+- Nobody knows which leads are warm vs. cold
+- "I thought YOU were following up with them"
 
-**After:** AI handles intake, enrichment, scoring, and nurture. Reps get qualified meetings handed to them. Managers see live pipeline. Nobody loses a deal to a sticky note.
-
-**The catch:** Most AI "strategy" fails because it stops at the PowerPoint. I don't leave until the system is live, tested, and your team is trained.
+**After:**
+- Follow-up playbook your team actually follows (not software — a clear process with owners and deadlines)
+- CRM that reflects reality, with auto-updates where they make sense and manual checkpoints where they don't
+- Clear handoff rules: who does what, when, and how
+- Your reps selling instead of administrating
+- You know your real pipeline. Not the fantasy one.
 
 ---
 
 ## How It Works
 
-1. **Free Assessment** — [5 questions, 2 minutes](https://colinmiley.com/lead-magnet). Get your Revenue Leak Score (0–100) and a detailed PDF report.
-2. **Discovery Call** — 15 minutes. I confirm your leaks and priorities. No pitch.
-3. **Audit + Build** — I embed with your team for 4 weeks. Process map, CRM audit, 2–3 automations configured.
-4. **Launch + Optimise** — Go live with training, documentation, and 30-day support.
+**Step 1: Embed**
+I spend a week in your world. Remote via Slack and Zoom, or on-site if you're in Dublin. I'm not auditing from a spreadsheet — I'm seeing how work actually happens. I join sales calls, watch how your team uses (or ignores) the CRM, and map where time and deals disappear.
 
-All deliverables signed via [OpenSign](https://opensignlabs.com) for acceptance. You own the system. I don't do retainers that keep you dependent.
+**Step 2: Map**
+We build a leak map together. Where do deals die? Where does time disappear? Where's the confusion? This isn't a surprise presentation — it's collaborative. You know your business. I know where to look. We figure it out together.
+
+**Step 3: Build**
+I build what we agreed on: workflows, playbooks, CRM structure, documentation. Built for your team, not a template I sell to everyone. If it involves automation, you own the n8n/Make instance — not me. If it's a playbook, it's in Notion where your team can find it.
+
+**Step 4: Transfer**
+I train your team, document everything, and stick around for 30 days to answer "how do I...?" questions. Then I hand it over. You own it. No lock-in. No mystery code. No dependency on me.
+
+All deliverables are signed via [OpenSign](https://opensign.io). No fancy legal fees. Just clear terms, signed, done.
+
+---
+
+## Why Me vs. The Alternatives
+
+**vs. Deep Purple AI:**
+Deep Purple discovers problems. That's valuable. But discovery without delivery is just an expensive mirror. I don't just find your leaks — I fix them. Deep Purple discovers. We deliver.
+
+**vs. DevCommX:**
+DevCommX rents you a bot. A monthly subscription for something that runs in the background. But bots break. Context changes. And when they do, you're stuck waiting for support. I build you a system your team understands, owns, and can adapt. They rent you a bot. We build you a system.
+
+**vs. Hiring a RevOps person:**
+A full-time RevOps hire is €60k-€90k. For most Irish B2B teams of 5-50 people, that's overkill. You don't need someone optimizing your funnel full-time. You need someone to fix the biggest leaks, set up the systems, and get out of the way. That's what I do.
 
 ---
 
 ## Background
 
-- **15 years** in enterprise ICT/Saas B2B sales 
-- **MEDDIC-trained**, quota-carrying, field-sales background — not a theorist
-- **Nov 2024:** Took voluntary redundancy to build systems that serve my family
-- **Now:** Revenue Ritual — helping Irish B2B teams eliminate admin waste and close more deals with AI
+15 years in B2B sales. Started as an SDR, worked up through AE to sales leadership. I've carried a bag. I've managed a team. I've sat in the Salesforce admin panel at 10pm wondering why the forecast is off by 40%.
 
-> "I spent 15 years watching sales teams drown in admin. Now I build the lifeboats."
+I've seen the "sales enablement" industry from inside. Most of it is content marketing dressed up as strategy. Most "AI sales tools" are demo-ware that falls apart in week two.
+
+So I built something different. Not because I'm special — because I got tired of watching good sales teams drown in admin that someone convinced them was "automation."
+
+I live in Dublin. I work with Irish B2B teams because I understand the market, the culture, and the reality of selling here. I'm not trying to scale to 500 clients. I work with a handful of teams at a time because that's the only way to do this properly.
 
 ---
 
 ## Building in Public
 
-**Revenue Ritual** — From first client to first €10K month.
+I write about what I'm learning and building:
 
-Documenting the entire journey: the systems, the tools, the wins, the failures.
-
-- **LinkedIn:** [linkedin.com/in/colin-miley](https://linkedin.com/in/colin-miley) — Daily posts on AI × Sales
-- **Newsletter:** *"Skills, Not Tools"* — Weekly deep dives
-- **Website:** [colinmiley.com](https://colinmiley.com) — Book an audit, take the free assessment
-- **GitHub:** You're here. All my skills, frameworks, and systems are open source.
+- [LinkedIn](https://linkedin.com/in/colin-miley) — B2B sales systems, Irish market takes, occasional rant about CRM data hygiene
+- [Revenue Ritual Blog](https://revenueritual.com/blog) — Deep dives on sales process, case studies, tool reviews
+- [GitHub](https://github.com/colin1miley-stack) — Open-source skills and agent frameworks I build for fun
 
 ---
 
-## Tech Stack
+## Tech Stack (What I Build With)
 
-**What I build with:**
+These are the tools I use to build systems for clients. Not what I sell — what I build *with*:
 
-- **OpenClaw** — AI orchestration & agent swarms
-- **Kimi** — Content, research, system design
-- **n8n / Make** — Workflow automation
-- **Next.js + Framer Motion** — Production-grade sites
-- **OpenSign** — Digital signature acceptance on deliverables
+- **n8n** — Workflow automation (self-hosted, client-owned)
+- **Make** — When the client already has a Make stack
+- **Airtable** — Flexible databases that don't require a CS degree to maintain
+- **HubSpot / Salesforce / Pipedrive** — Whatever CRM you have, I work with it
+- **OpenSign** — Document signing without the enterprise tax
+- **Notion** — Documentation that people actually read
+- **Typeform** — Intake forms that don't make your prospects want to die
 
-**What I help clients implement:**
-
-- AI SDR systems (LinkedIn + email outreach, auto-personalised)
-- CRM data enrichment & lead scoring
-- Automated follow-up sequences that don't sound robotic
-- Revenue dashboards with live pipeline visibility
-- Content engines that run on 75 min/week
-- Graph-engineered audit pipelines
+I don't build software products. I build systems *using* these tools. Your team can maintain them without calling a developer. That's the point.
 
 ---
 
 ## Open Source Skills
 
-All my operational frameworks are here:
+I publish agent skills and frameworks I build:
 
-- **[saas-identifier](https://github.com/colin1miley-stack/openclaw-skills/tree/main/saas-identifier)** — Evaluate SaaS vs productized service vs custom consulting
-- **[build-orchestrator](https://github.com/colin1miley-stack/openclaw-skills/tree/main/build-orchestrator)** — Zero-tolerance build protocol
-- **[audit-pipeline](https://github.com/colin1miley-stack/openclaw-skills/tree/main/audit-pipeline)** — Graph-engineered audit topology
-- **[leak-to-retainer](https://github.com/colin1miley-stack/openclaw-skills/tree/main/leak-to-retainer)** — Turn signals into proposals
+| Skill | Description |
+|-------|-------------|
+| `kimi-council` | Multi-agent review system for high-stakes decisions |
+| `notebooklm-study-guide` | Turn NotebookLM exports into structured study guides |
+| `after-action-extraction` | Extract lessons from project retrospectives |
+| `decision-framework` | Structured decision-making with built-in dissent |
 
-→ [See all 27 skills →](https://github.com/colin1miley-stack/openclaw-skills)
+All available in [openclaw-skills](https://github.com/colin1miley-stack/openclaw-skills).
 
 ---
 
 ## Currently
 
-- 📍 Dublin, Ireland
-- 👨‍👩‍👧‍👦 Dad first. Engineer second.
-- 🎯 Goal: Financial freedom for family through AI-leveraged income
-- 🏗️ Building: Revenue Ritual + open-source skill library
-- 🌊 Dream: Lake house, majority time with family, location-independent
+- Embedded with 2 Irish B2B teams fixing their sales processes
+- Building a revenue leak audit methodology I actually believe in
+- Learning that the best "automation" is often just a clear decision tree written down
+- Trying to get better at saying no to projects that aren't a fit
+- Living in Dublin, drinking too much coffee, wondering if this whole thing will work
 
 ---
 
-<p align="center">
-  <a href="https://colinmiley.com">Website</a> •
-  <a href="https://colinmiley.com/lead-magnet">Free Assessment</a> •
-  <a href="https://linkedin.com/in/colin-miley">LinkedIn</a> •
-  <a href="https://calendly.com/colin-colinmiley/book-call">Book a Call</a>
-</p>
+## How to Work Together
+
+**Best fit:** Irish B2B sales teams of 5-50 people with a CRM that's "fine" but nobody trusts the data. Teams who know they're leaking revenue but can't pin down where.
+
+**Not a fit:** Early-stage startups with no sales process yet (I can't fix what doesn't exist). Teams looking for a "set it and forget it" AI solution. Anyone who thinks AI will replace their sales team.
+
+**Book a call:** [revenueritual.com/contact](https://revenueritual.com/contact)
+
+Or just DM me on [LinkedIn](https://linkedin.com/in/colin-miley). I read everything.
+
+---
+
+*Revenue Ritual — Human systems for teams who sell to humans.*
