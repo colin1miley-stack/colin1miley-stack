@@ -44,6 +44,6 @@ schedule content that actually converts. Live at colinmiley.com/signal.
 ---
 
 *Revenue Systems is the commercial layer of a three-layer ecosystem:
-Revenue Systems (diagnose + build + care) → Revenue Ritual
-(operational product layer, coming) → Content Studio
+Revenue Systems (diagnose + build + care) → Operational Layer
+(productised delivery, coming) → Content Studio
 (intelligence-to-demand, in development).*
