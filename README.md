@@ -29,6 +29,12 @@ a handoff failed. Now I fix them with evidence, not opinions.
 05 Measure   Confirm the leak is closed
 ```
 
+## The rules I work by
+
+- Evidence before tools. I don't evaluate new software until your current process is audited.
+- No access to your raw CRM and pipeline data = no engagement. I turn work away.
+- Every number I show you traces to your files. Nothing invented.
+
 ## Elsewhere
 
 - Site: https://colinmiley.com
