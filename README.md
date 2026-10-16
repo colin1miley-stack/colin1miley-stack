@@ -1,21 +1,21 @@
-# Colin Miley — Revenue Systems
+# Axiom Revenue Labs
 
-**15 years in ICT, including 10 years at Vodafone.** Founder of Colin Miley Revenue Systems Ltd. Building Axiom OS to automate B2B revenue systems.
+**Building Axiom OS: A governed semantic layer for autonomous RevOps remediation.**
 
-I help B2B sales teams find the deals their process is quietly losing. I lived the leaks: the enquiry left in the wrong inbox, the proposal with no follow-up owner, the deal that went quiet because a handoff failed. Now I fix them with evidence, not opinions.
+Axiom OS is a proprietary, API-driven SaaS platform that monitors, repairs, and protects complex B2B revenue workflows (n8n, HubSpot, Salesforce, Twenty) with zero manual IT intervention. We replace fragile, black-box automation with deterministic, version-controlled infrastructure.
 
-## What I do
+## Platform Capabilities
 
-- **Autonomous Agent Readiness Audit (Free)** · A 48-hour integration audit for legacy AI agents facing the late-2026 retirement deadline. Identifies OAuth2/CRM integration risks before they break your pipeline.
-- **Revenue Leak Audit (€7,500)** · A focused 2–3 week investigation into how your team handles leads, follow-up, CRM updates, and pipeline decisions. Evidence first. If the data doesn't support a major problem, I'll say so.
-- **Revenue System Build (from €12,500)** · Implement the fix on the tools you already own. No rip-and-replace. (Rule: Quote, never flat-fee for complex upstream integrations).
-- **Axiom OS (SaaS)** · The autonomous, brand-compliant revenue operating system for marketing teams and agencies.
+- **Zero-Trust Structural Scan (Free):** A deterministic, in-memory analysis of workflow JSON. Identifies AUTH, resilience, brand, and data hygiene leaks against external standards (OWASP, n8n docs) without requiring API keys or credentials.
+- **Async Diagnostic Audit (€1,500):** A focused, 48-hour automated investigation into pipeline leakage, handoff failures, and CRM sync risks. Evidence-first reporting. 
+- **Axiom OS Continuous Remediation (€2,500/mo):** The autonomous revenue operating system. Features Shadow Mode pre-flight simulation, version-controlled rollbacks, and the Multimodal Content Engine for brand-compliant, automated reporting.
+- **X402 M2M Gateway:** Usage-based, metered API guardrails for autonomous AI agents, ensuring structural compliance before state-changing actions execute.
 
-## The method
+## The Axiom Methodology
 
 ```text
-01 Audit     Find where leads, deals, information, or ownership get stuck
-02 Evidence  Test against CRM, workflows, and activity records
-03 Priority  Separate the expensive problem from the merely untidy
-04 Fix       Improve the handoff, workflow, follow-up, or CRM rule
-05 Measure   Confirm the leak is closed and revenue is recovered
+01 Ingest      Zero-trust ingestion of structural metadata (no PII, no credentials).
+02 Analyze     Deterministic gap detection against the Governed Semantic Layer baseline.
+03 Simulate    Shadow Mode pre-flight testing of proposed remediations.
+04 Approve     1-click Human-in-the-Loop (HITL) authorization via Axiom Control Plane.
+05 Deploy      Version-controlled execution with instant rollback capability.
