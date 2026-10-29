@@ -1,0 +1,27 @@
+# infra/letta/docker-compose.yml
+services:
+  letta-server:
+    image: letta/letta:latest
+    container_name: axiom-letta-memory
+    restart: unless-stopped
+    ports:
+      - "8283:8283" # Internal VPC routing only; NOT exposed to public internet
+    environment:
+      - LETTA_SERVER_HOST=0.0.0.0
+      - LETTA_SERVER_PORT=8283
+      - LETTA_CONFIG_DIR=/app/config
+      - LETTA_DEBUG=False
+      # LLM Routing MUST pass through Axiom's internal router (Module 02 Addendum)
+      - LETTA_LLM_ENDPOINT=http://axiom-llm-router:3000/v1 
+      - LETTA_EMBEDDING_ENDPOINT=http://axiom-llm-router:3000/v1
+    volumes:
+      - letta_data:/app/config
+    networks:
+      - axiom_internal_network # Isolated from public ingress
+
+volumes:
+  letta_data:
+
+networks:
+  axiom_internal_network:
+    driver: bridge
