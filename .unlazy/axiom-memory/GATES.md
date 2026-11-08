@@ -2,7 +2,7 @@
 - [x] G0 Architect signs SPEC.md + doc 20.2 amendment
 - [x] G1 Migration: ENABLE + FORCE RLS on all 3 tables; Supabase advisors clean (ai-revenue-systems-site PR #73, 2026-11-08)
 - [x] G2 Cross-tenant test: tenant A context gets 0 rows from tenant B (core, archival, audit). PASS locally and on Supabase staging; negative control fails as expected
-- [ ] G3 Zero external embedding calls: embedder is the Supabase Edge Function only (network test + static grep)
+- [x] G3 Zero external embedding calls: embedder is the Supabase Edge Function only. Static guard test passes; staging probe: 384-dim, unit norm, deterministic; 401 without key (PR #73)
 - [ ] G4 Interface exposes no write method; contract test pins the exports
 - [ ] G5 Schema validation rejects extra keys
 - [ ] G6 Wired into the context-enrichment path, read-only
