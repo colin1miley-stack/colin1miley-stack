@@ -1,27 +1,32 @@
-# infra/letta/docker-compose.yml
+# infra/letta/docker-compose.yml — Axiom Memory Runtime (hardened 2026-11-08)
+# Env vars per docs.letta.com/guides/docker + docs-v1 openai-proxy guide.
 services:
   letta-server:
-    image: letta/letta:latest
+    # Pin required: set LETTA_IMAGE to an exact tag or @sha256 digest. Compose refuses to start without it.
+    image: ${LETTA_IMAGE:?Set LETTA_IMAGE to a pinned letta/letta tag or digest}
     container_name: axiom-letta-memory
     restart: unless-stopped
-    ports:
-      - "8283:8283" # Internal VPC routing only; NOT exposed to public internet
+    # No host port binding. Reachable only by services on axiom_internal_network, at letta-server:8283.
+    expose:
+      - "8283"
     environment:
-      - LETTA_SERVER_HOST=0.0.0.0
-      - LETTA_SERVER_PORT=8283
-      - LETTA_CONFIG_DIR=/app/config
-      - LETTA_DEBUG=False
-      # LLM Routing MUST pass through Axiom's internal router (Module 02 Addendum)
-      - LETTA_LLM_ENDPOINT=http://axiom-llm-router:3000/v1 
-      - LETTA_EMBEDDING_ENDPOINT=http://axiom-llm-router:3000/v1
+      # Auth: every API call needs Bearer LETTA_SERVER_PASSWORD.
+      - SECURE=true
+      - LETTA_SERVER_PASSWORD=${LETTA_SERVER_PASSWORD:?Set LETTA_SERVER_PASSWORD}
+      # All LLM traffic goes through the Axiom LLM router (Module 02 Addendum).
+      - OPENAI_API_BASE=http://axiom-llm-router:3000/v1
+      - OPENAI_API_KEY=${AXIOM_ROUTER_KEY:?Set AXIOM_ROUTER_KEY}
+      # Embeddings: no server env var exists. Pass the embedding model per agent at creation time (via the router).
     volumes:
-      - letta_data:/app/config
+      - letta_pgdata:/var/lib/postgresql/data
     networks:
-      - axiom_internal_network # Isolated from public ingress
+      - axiom_internal_network
 
 volumes:
-  letta_data:
+  letta_pgdata:
 
 networks:
   axiom_internal_network:
+    name: axiom_internal_network   # fixed name so the router's compose can join it as `external: true`
     driver: bridge
+    internal: true                 # no outbound internet; egress only via axiom-llm-router
