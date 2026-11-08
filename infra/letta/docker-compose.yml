@@ -1,0 +1,32 @@
+# infra/letta/docker-compose.yml — Axiom Memory Runtime (hardened 2026-11-08)
+# Env vars per docs.letta.com/guides/docker + docs-v1 openai-proxy guide.
+services:
+  letta-server:
+    # Pin required: set LETTA_IMAGE to an exact tag or @sha256 digest. Compose refuses to start without it.
+    image: ${LETTA_IMAGE:?Set LETTA_IMAGE to a pinned letta/letta tag or digest}
+    container_name: axiom-letta-memory
+    restart: unless-stopped
+    # No host port binding. Reachable only by services on axiom_internal_network, at letta-server:8283.
+    expose:
+      - "8283"
+    environment:
+      # Auth: every API call needs Bearer LETTA_SERVER_PASSWORD.
+      - SECURE=true
+      - LETTA_SERVER_PASSWORD=${LETTA_SERVER_PASSWORD:?Set LETTA_SERVER_PASSWORD}
+      # All LLM traffic goes through the Axiom LLM router (Module 02 Addendum).
+      - OPENAI_API_BASE=http://axiom-llm-router:3000/v1
+      - OPENAI_API_KEY=${AXIOM_ROUTER_KEY:?Set AXIOM_ROUTER_KEY}
+      # Embeddings: no server env var exists. Pass the embedding model per agent at creation time (via the router).
+    volumes:
+      - letta_pgdata:/var/lib/postgresql/data
+    networks:
+      - axiom_internal_network
+
+volumes:
+  letta_pgdata:
+
+networks:
+  axiom_internal_network:
+    name: axiom_internal_network   # fixed name so the router's compose can join it as `external: true`
+    driver: bridge
+    internal: true                 # no outbound internet; egress only via axiom-llm-router
