@@ -1,4 +1,7 @@
-# Axiom Memory Runtime (Letta) — self-hosted
+# Axiom Memory Runtime (Letta) — R&D SANDBOX ONLY
+
+> 🚫 **NOT FOR PRODUCTION. NO TENANT DATA.** Architect ruling 2026-11-08: production memory = `lib/memory/axiom-memory.ts` on Supabase FORCE RLS (see `.unlazy/axiom-memory/SPEC.md`). This container exists only to evaluate the memory pattern on synthetic data.
+
 Source: https://github.com/letta-ai/letta (Apache-2.0)
 Ruling (Architect, 2026-10-29): self-hosted, internal network only, all LLM traffic via `axiom-llm-router` (Module 02 Addendum).
 Hardened 2026-11-08: no host port, `internal: true` network, auth on, pinned image required, documented env vars only.
