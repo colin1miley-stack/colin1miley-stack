@@ -1,4 +1,4 @@
-# Axiom Memory — SPEC (DRAFT, pending Architect sign-off)
+# Axiom Memory — SPEC (SIGNED 2026-11-08)
 OWNS: lib/memory/axiom-memory.ts, lib/memory/axiom-memory.test.ts, supabase/migrations/*_axiom_memory.sql
 
 ## Purpose
@@ -17,7 +17,7 @@ Keeps the memory *pattern* (core blocks + archival recall). Drops the runtime: u
 | Table | Columns | Notes |
 |---|---|---|
 | `memory_core_blocks` | `id, tenant_id, label, value text, char_limit int, updated_at` | small, always-in-context blocks |
-| `memory_archival` | `id, tenant_id, source_ref, content text, embedding vector(<dim>), created_at` | pgvector; HNSW index |
+| `memory_archival` | `id, tenant_id, source_ref, content text, embedding vector(384), created_at` | pgvector; HNSW index |
 | `memory_audit` | `id, tenant_id, actor, op, ref_id, at` | append-only |
 
 All three: `ENABLE` + `FORCE ROW LEVEL SECURITY`; policy `tenant_id = (auth.jwt()->>'tenant_id')::uuid`.
@@ -28,7 +28,7 @@ getCoreBlocks(ctx: TenantCtx): Promise<CoreBlock[]>
 recall(ctx: TenantCtx, query: string, k?: number /* ≤ 20 */): Promise<ArchivalHit[]>
 ```
 
-## Open decisions (Architect)
-- [ ] Local embedding model + dimension (sets `vector(<dim>)`)
-- [ ] Where the local embedder runs (it must not be Vercel → external API)
-- [ ] Retention period for `memory_archival`
+## Architect decisions (2026-11-08)
+- [x] Embeddings: **gte-small**, **384-dim**, run in a **Supabase Edge Function** (built-in model, eu-north-1). Column: `vector(384)`.
+- [x] Retention: **contract term + 30 days**. Rows are deleted 30 days after tenant offboarding.
+- [x] Build repo: **ai-revenue-systems-site**, branch base `acp/production-readiness`.
