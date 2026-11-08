@@ -7,8 +7,8 @@ Keeps the memory *pattern* (core blocks + archival recall). Drops the runtime: u
 
 ## Hard constraints (release-blocking)
 1. **Read-only to callers.** Public interface exposes `getCoreBlocks`, `recall` only. No tenant-state mutation (20.2).
-2. **FORCE RLS** on every table; `tenant_id` from JWT claim only, never from the request body.
-3. **Writes** only through a server-side ingestion job running as the tenant's own role (no `service_role` bypass); every write logged to the audit table.
+2. **FORCE RLS** on every table. House pattern: `tenant_scope_*` on `app.tenant_id` (bound server-side by the G-05b `axiom_app` lane), RESTRICTIVE deny for anon/authenticated. `tenant_id` never comes from the request body.
+3. **Writes** only through the server-side ingestion job, in the tenant's `axiom_app` lane (no `service_role` bypass). Every write is logged to `memory_audit` (append-only trigger).
 4. **Embeddings local only** (Batch 04 §1.1). No call to external embedding APIs. Unavailable model → fail closed + Rule 0.2 report.
 5. **Pydantic/Zod-validated** inputs and outputs; unknown keys rejected.
 6. Region: Supabase **eu-north-1** only.
@@ -20,7 +20,7 @@ Keeps the memory *pattern* (core blocks + archival recall). Drops the runtime: u
 | `memory_archival` | `id, tenant_id, source_ref, content text, embedding vector(384), created_at` | pgvector; HNSW index |
 | `memory_audit` | `id, tenant_id, actor, op, ref_id, at` | append-only |
 
-All three: `ENABLE` + `FORCE ROW LEVEL SECURITY`; policy `tenant_id = (auth.jwt()->>'tenant_id')::uuid`.
+All three: `ENABLE` + `FORCE ROW LEVEL SECURITY`; `tenant_id text`; policy `tenant_id = (SELECT current_setting('app.tenant_id', true))`.
 
 ## Interface (`lib/memory/axiom-memory.ts`)
 ```ts
